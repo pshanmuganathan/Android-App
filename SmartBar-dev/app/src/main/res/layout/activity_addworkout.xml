@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#000000">
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="183dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/kamran"
+        android:alpha="0.8" />
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <com.alexzh.circleimageview.CircleImageView
+            android:id="@+id/circleview"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/kamran1"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="5dp"
+            app:view_shadowRadius="2dp"
+            app:view_shadowDx="2dp"
+            app:view_shadowDy="0dp"
+            app:view_borderWidth="2dp"
+            app:view_borderColor="#cccccc"
+            />
+    </LinearLayout>
+</FrameLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <customfonts.MyTextView
+        android:layout_width="0dp"
+        android:layout_weight="0.49"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="14sp"
+        android:layout_marginLeft="15dp"
+        android:padding="20dp"/>
+    <customfonts.MyTextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="14sp"
+        android:text="Sam Enric"
+        android:id="@+id/text1"
+        android:inputType="textEmailAddress"
+        android:padding="16dp"
+        android:layout_gravity="center"
+        android:background="#00000000"/>
+</LinearLayout>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="0.1dp"
+    android:background="#ACACAC"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <customfonts.MyTextView
+        android:layout_width="0dp"
+        android:layout_weight="0.55"
+        android:layout_height="wrap_content"
+        android:text="Age"
+        android:textSize="14dp"
+        android:layout_marginLeft="15dp"
+        android:padding="20dp"/>
+    <customfonts.MyTextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="14sp"
+
+        android:id="@+id/text2"
+
+        android:padding="16dp"
+        android:layout_gravity="center"
+        android:background="#00000000"
+        android:text="25" />
+</LinearLayout>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="0.1dp"
+    android:background="#ACACAC"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <customfonts.MyTextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:text="Location"
+        android:textSize="14dp"
+        android:padding="20dp"
+        android:layout_marginLeft="15dp"
+        />
+    <customfonts.MyTextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Chicago"
+        android:textSize="14sp"
+        android:id="@+id/text3"
+        android:background="#00000000"
+        android:padding="20dp"/>
+</LinearLayout>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="0.1dp"
+    android:background="#ACACAC"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <customfonts.MyTextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:text="BMI"
+        android:textSize="14dp"
+        android:padding="20dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/myTextView" />
+    <customfonts.MyTextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="3.5"
+        android:textSize="14sp"
+        android:id="@+id/text4"
+        android:background="#00000000"
+        android:padding="20dp"/>
+</LinearLayout>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="0.1dp"
+    android:background="#ACACAC"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <customfonts.MyTextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:text="Last Workout"
+        android:textSize="14dp"
+        android:padding="20dp"
+        android:layout_marginLeft="15dp"
+        />
+    <customfonts.MyTextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="11/06/2016"
+        android:textSize="14sp"
+        android:id="@+id/text5"
+        android:background="#00000000"
+        android:padding="20dp"/>
+</LinearLayout>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="0.1dp"
+    android:background="#ACACAC"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/WorkButton"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:text="Workout"
+
+        android:layout_centerHorizontal="true" />
+
+</LinearLayout>
+
+</LinearLayout>

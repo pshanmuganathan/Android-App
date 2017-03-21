@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "408652574615",
+    "firebase_url": "https://smartbar-75120.firebaseio.com",
+    "project_id": "smartbar-75120",
+    "storage_bucket": "smartbar-75120.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:408652574615:android:5efc80efdb3f370f",
+        "android_client_info": {
+          "package_name": "com.cs442.team2.smartbar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "408652574615-5s215c9fl9bqorrsnsggms3afdh94389.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBd-xk3E_8gzZMDUrdTljRhby91pHVmqTQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
